@@ -8,6 +8,8 @@
 // @supportURL https://openuserjs.org/scripts/jgarrone/OGame_Recursos_Ampliados/issues
 // @include http://*/game/index.php?page=*
 // @include https://*/game/index.php?page=*
+// @include *127.0.0.1*/bots/*/browser/html/*?page=*
+// @include *.ogame.ninja/bots/*/browser/html/*?page=*
 // @grant none
 // Script original escrito por  trustux/HochiChaos , con aportes de Rudolph
 //  tiene las correcciones oportunas para su adaptación a la nueva versión V6.
@@ -1913,7 +1915,7 @@
     
     
     
-    if ( location.href.indexOf('/game/index.php?page=resourceSettings') != -1 ) {
+    if ( location.href.indexOf('?page=resourceSettings') != -1 ) {
         
         getDatosSummary(); 
         
